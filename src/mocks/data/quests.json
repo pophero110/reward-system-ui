@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Save the Village",
+    "description": "Defeat the goblins and protect the villagers from attack.",
+    "due_date_time": "2025-11-10T12:00:00Z",
+    "reward": "100 Gold",
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "title": "Find the Lost Sword",
+    "description": "Locate the legendary sword hidden in the Dark Forest.",
+    "due_date_time": "2025-11-15T18:00:00Z",
+    "reward": "250 Gold",
+    "status": "done"
+  },
+  {
+    "id": 3,
+    "title": "Deliver the Message",
+    "description": "Take the secret message to the king in the neighboring kingdom.",
+    "due_date_time": null,
+    "reward": "50 Gold",
+    "status": "pending"
+  },
+  {
+    "id": 4,
+    "title": "Defeat the Dragon",
+    "description": "Slay the dragon terrorizing the northern mountains.",
+    "due_date_time": "2025-12-01T09:00:00Z",
+    "reward": "500 Gold",
+    "status": "failed"
+  },
+  {
+    "id": 5,
+    "title": "Gather Healing Herbs",
+    "description": "Collect 10 rare herbs from the enchanted forest for the healer.",
+    "due_date_time": "2025-11-08T16:00:00Z",
+    "reward": "75 Gold",
+    "status": "done"
+  }
+]
