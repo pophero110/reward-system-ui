@@ -1,6 +1,6 @@
 import { QuestBoard } from "@/components/QuestBoard";
-import { QuestList } from "@/components/QuestList";
 import { RankingBoard } from "@/components/RankingBoard";
+import { UserList } from "@/components/UserList";
 
 export function Room() {
   return (
@@ -15,15 +15,16 @@ export function Room() {
         </p>
       </header>
 
-      {/* Boards layout */}
-      <main className="flex flex-col lg:flex-row gap-4">
-        {/* Ranking Board - sticky sidebar on large screens */}
-        <div className="w-full lg:w-1/5 lg:sticky lg:top-8">
+      {/* Main grid layout */}
+      <main className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+        {/* Left column: UserList on top, RankingBoard below */}
+        <div className="flex flex-col gap-4 lg:col-span-1 lg:sticky lg:top-8">
+          <UserList />
           <RankingBoard />
         </div>
 
-        {/* Quest List - scrollable if content is long */}
-        <div className="flex-1 overflow-auto max-h-[80vh]">
+        {/* Right column: Quest List */}
+        <div className="lg:col-span-3 flex-1 overflow-auto max-h-[80vh]">
           <QuestBoard />
         </div>
       </main>
