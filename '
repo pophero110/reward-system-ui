@@ -29,10 +29,7 @@ export function QuestCard({ quest }: { quest: Quest }) {
 		navigate(`/quests/${quest.id}`);
 	};
 	return (
-		<div
-			onClick={handleClick}
-			className="max-w-md p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 cursor-pointer"
-		>
+		<div className="max-w-md p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
 			<div className="flex justify-between items-center mb-2">
 				<h2 className="text-xl font-bold text-gray-800">{quest.title}</h2>
 				<span
